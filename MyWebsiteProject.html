@@ -1,38 +1,92 @@
 <!DOCTYPE html>
 <html>
-
-<head> <! --Title>
+	
+	<!-- Title-->
+<head> 
 <title>My Website Project</title>
 </head>
 
-	<! --Setup of styles>
-<style> 
-h1 {
+	<!-- Setup of styles-->
+<style>
+div.container {
+	width 300%
+	border: 2 px solid blue;
+}
+
+body {
+	background-color: lightblue;
+}
+
+nav {
+    float: left;
+    margin: 0;
+    max-width: 1;
+    padding: 1em;
+}
+
+header,footer {
+
     margin: 0 0 40px 10px;
     background-color: green;
-    font-size: 300%;
-    text-align: center;
-}
-
-p1 {
-	font-family: courier;
     font-size: 150%;
-    margin: 0 0 100px 0px;
-    background-color: lightgreen;
+    text-align: center;
+    
 }
 
+nav {
+    font-size: 100%;
+    background-color:;
+    float: left;
+    max-width: 190px
+    
+}
+
+article {
+    margin-left: 180px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    max-width: 600px;
+}
+
+footer { 
+	font-size: 150%;
+    text-align: center;
+	
 </style>
 
-	<! --Header-->
-<div>
+	<!-- Header-->
 <body>
+
+<div class="container">
+
+<header>
 <h1>My Website Project</h1>
-</body>
+</header>
+
+	<!-- Menu-->
+<nav>
+  <h1>Menu</h1>
+  <ul>
+    <li><a href="#"></a>Favorite Foods</li>
+    <li><a href="#"></a>Personal Hobby</li>
+    <li><a href="#"></a>Favorite Sports team</li>
+  </ul>
+</nav>
+
+	<!-- Bio-->
+<article> 
+  <h1>Bio</h1>
+  <p>My name is Bryce Zimmerman and I am 14 years old</p>
+  
+</article>
+
+	<!-- Footer-->
+<footer><p>Merch link in bio</p></footer>
+
+
+	
+
 </div>
-
-	<! --Menu-->
 <body>
-<p1>Menu</p1>
-</body>
-
 </html>
