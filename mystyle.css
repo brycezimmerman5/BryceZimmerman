@@ -1,6 +1,9 @@
 
+iframe {
+        float: left;
+	margin-right: 30px;
 
-
+}
 
 
 img {
@@ -15,7 +18,7 @@ div.container {
 	width 300%
 }
 body {
-	background-color: #514F4F;
+	background-color: #CC0000;
 }
 nav {
     float: left;
@@ -25,7 +28,7 @@ nav {
     font-size: 100%;
     background-color: ;
     max-width: 160px;
-    border: 3px dashed white;
+    border: 3px dashed #202020;
     border-radius: 3px;
     background-color: #770909;
     color: white;
@@ -35,23 +38,23 @@ nav {
 }
 header {
     margin: 0 0 40px 10px;
-    text-shadow: 8px 6px #770909;
-    background-color: #770909;
+    text-shadow: 8px 6px #202020;
+    background-color:;
     padding: 1px;
     font-size: 300%;
     text-align: center;
     color: white;
     font-family: palatino;
-    border: 12px dotted white ;
+    border: 12px outset #404040;
     
 }
 article {
     margin-left: 200px;
     padding: 1em;
     max-width: 900px;
-    border: 3px dashed white;
+    border: 3px dashed #202020;
     border-radius: 3px;
-    background-color: #770909;
+    background-color: #808080;
     color: white;
     font-family: palatino;
     font-size: 150%;
@@ -63,7 +66,7 @@ footer {
     text-align: center;
     color: white;
     font-family: palatino;
-    border-top: 6px dashed white ;
+    border-top: 6px inset #202020 ;
     padding: 10px
     
 }
