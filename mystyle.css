@@ -15,7 +15,7 @@ img {
 }
     
 div.container {
-	width 300%
+	width 300%;
 }
 body {
 	background-color: #CC0000;
@@ -67,7 +67,7 @@ footer {
     color: white;
     font-family: palatino;
     border-top: 6px inset #202020 ;
-    padding: 10px
+    padding: 10px;
     
 }
 
