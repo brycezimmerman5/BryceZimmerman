@@ -16,7 +16,7 @@ div.container {
 	width 300%;
 }
 body {
-	background-color: #514F4F;
+	background-color: #3333FF;
 }
 nav {
     float: left;
@@ -28,7 +28,7 @@ nav {
     max-width: 160px;
     border: 3px dashed white;
     border-radius: 3px;
-    background-color: #770909;
+    background-color: #99CCFF;
     color: white;
     length: 400px;
     margin-right: 20px;
@@ -36,14 +36,14 @@ nav {
 }
 header {
     margin: 0 0 40px 10px;
-    text-shadow: 8px 6px #770909;
-    background-color: #770909;
+    text-shadow: 8px 6px #3333FF;
+    background-color: #3333GG;
     padding: 1px;
     font-size: 300%;
     text-align: center;
     color: white;
     font-family: palatino;
-    border: 12px dotted white ;
+    border: 12px dotted gray ;
     
 }
 article {
@@ -51,21 +51,21 @@ article {
     padding: 1em;
     overflow: hidden;
     max-width: 900px;
-    border: 3px dashed white;
+    border: 3px dashed gray;
     border-radius: 3px;
-    background-color: #770909;
+    background-color: #99CCFF;
     color: white;
     font-family: palatino;
     font-size: 150%;
     margin: auto;
 }
 footer { 
-	font-size: 200%;
+    font-size: 200%;
     margin: 50px 100px;
     text-align: center;
     color: white;
     font-family: palatino;
-    border-top: 6px dashed white ;
+    border-top: 6px dashed gray;
     padding: 10px;
     
 }
